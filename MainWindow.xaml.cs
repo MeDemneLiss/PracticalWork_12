@@ -29,7 +29,7 @@ namespace PracticalWork_12
             }
             else
             {
-                MessageBox.Show("Введены неверные координаты", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Введены неверные данные", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -45,7 +45,7 @@ namespace PracticalWork_12
             }
             else
             {
-                MessageBox.Show("Введены неверные координаты", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Введены неверные даные", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
         private void Timer_Tick(object sender, EventArgs e)
